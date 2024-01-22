@@ -12,3 +12,59 @@ body{
 .nav-item:hover .nav-link{
     color: #960909;
 }
+
+.main-subtitle{
+    font-size: 24px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    line-height: 1.9;
+    color: #7153d9;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.main-title{
+    font-size: 72px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    line-height: 1.16;
+    color: #1c1c1c;
+}
+
+.main-p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #54545f;
+    margin-top: 30px;
+    
+    max-width: 510px;
+
+}
+
+.main-btn{
+    display: inline-block;
+    
+    border-color: #4526b1;
+    background: #4526b1;
+    background: linear-gradient(135deg, #4526b1 0%, #5435be 45%, #7153d9 66%);
+    border: 0px;
+    border-radius: 27px;
+    padding: 20px 45px;
+    line-height: 1;
+    font-size: 16px;
+    font-family: "Jost", sans-serif;
+    position: relative;
+    color: #E9EDF4;
+}
+.bg-white{
+    background: #E9EDF4 !important;
+    /* transition: .1s ease-in; */
+    border-radius: 20px  ;
+    
+}
+
+.bg-white.scrolled {
+    background: white !important;
+}
+
