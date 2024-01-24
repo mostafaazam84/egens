@@ -87,3 +87,56 @@ body{
     text-align: center;
     margin: 15px;
 }
+
+
+.serves-subtitle{
+    font-size: 18px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    line-height: 1.9;
+    color: #7153d9;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+.serves-p{
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #8d8e99;
+    margin-top: 30px;
+}
+.serves-title{
+    font-size: 60px;
+    font-family: "Jost", sans-serif;
+    font-weight: 500;
+    line-height: 1.16;
+    color: #1c1c1c;
+}
+
+.mycard{
+    box-shadow:  12px 12px  rgba(69, 38, 177, 0.1), 11px 6px 25px rgba(69, 38, 177, 0.1);
+    border-radius: 20px;
+    
+}
+.mycard p{
+    font-size: 18px;
+    
+}
+.mycard h3:hover{
+    color: #0a58ca;
+}
+.readmore{
+    text-decoration: none;
+    color: black;
+    font-weight: 500px;
+    transition: .5s;
+    
+}
+.fa-solid{
+    margin-right: 5px;
+}
+.readmore:hover{
+    color: #4526b1;
+    margin-left: 10px;
+}
